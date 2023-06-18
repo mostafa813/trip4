@@ -16,7 +16,7 @@
 }
 .container {
   padding: 0 24px;
-  margin-bottom: 125px;
+  margin-bottom: 48px;
 }
 .head-text {
   letter-spacing: 0.5px;
@@ -84,7 +84,7 @@
 }
 .title {
   padding: 16px 0;
-  border-top: 1px solid #F3F3F3;
+  border-top: 1px solid #f3f3f3;
 }
 .main-title {
   font-weight: 600;
@@ -96,7 +96,7 @@
   font-size: 12px;
   color: #adafae;
 }
-.gallery{
+.gallery {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(3, 1fr);
@@ -125,4 +125,101 @@
 }
 .title2 {
   margin-bottom: 14px;
+}
+.map {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 2px;
+}
+.addres {
+  display: flex;
+  gap: 8px;
+}
+.addres > p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #878787;
+  text-transform: capitalize;
+}
+.feacher-head {
+  margin-top: 26px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.Places-head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin-bottom: 15px;
+}
+.Trending {
+  box-shadow: 4px 4px 4px rgba(18, 18, 18, 0.06);
+  border-radius: 12px;
+  width: 327px;
+  margin-bottom: 24px;
+}
+.Trending3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 12px 12px 12px;
+  border-top: 2px solid #f3f3f3;
+}
+.Trending1 {
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 12px 0 12px;
+}
+.Trending2 {
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  color: #878787;
+  gap: 8px;
+  margin-top: 6px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+}
+#Read-More {
+  color: #101010;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #101010;
+  border-radius: 8px;
+  background: #ffffff;
+  font-family: "Dana-FaNum";
+  width: 100%;
+}
+#Contact {
+  font-family: "Dana-FaNum";
+  width: 327px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 11px;
+  background: #101010;
+  border-radius: 8px;
+  color: #ffffff;
+  border: 0;
+  margin: 16px 24px;
+}
+.Contactbtn{
+  border-top: 1px solid #F3F3F3;
 }
